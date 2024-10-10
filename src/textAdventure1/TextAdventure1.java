@@ -1,8 +1,8 @@
+package textAdventure1;
+import java.util.Scanner;
 /**
  * 
  */
-import java.util.Scanner;
-package textAdventure1;
 
 /**
  * 
