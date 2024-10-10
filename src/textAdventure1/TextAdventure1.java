@@ -1,6 +1,7 @@
 /**
  * 
  */
+import java.util.Scanner;
 package textAdventure1;
 
 /**
@@ -10,7 +11,13 @@ public class TextAdventure1 {
 
 	public static void main(String[] args)
 	{
-		boolean A_Presed,B_Pressed,C_Pressed,D_Pressed;
+		Scanner scanner = new Scanner(System.in);
+		String name;
+		
+		System.out.println("Hello, what's your name?");
+		System.out.printf("You're trapped in a rooom by non other than your ach-nemesis!%n");
+		//System.out.printf("Y");
+		name = scanner.next();
 	}
 
 }
